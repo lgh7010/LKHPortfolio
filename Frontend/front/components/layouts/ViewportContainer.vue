@@ -16,9 +16,9 @@ export default {
 @import '@/styles/variables';
 
 lkh-ViewportContainer {
-  position: relative;
+  position: absolute;
   top: $HeaderHeight;
-  margin-bottom: $FooterHeight;
+  padding-bottom: $FooterHeight;
   width: 100%;
   background-color: $SecondaryLight;
 }
