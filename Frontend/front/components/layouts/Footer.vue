@@ -1,7 +1,7 @@
 <template>
- <lkh-Footer>
+ <div class="lkh-footer">
    푸터
- </lkh-Footer>
+ </div>
 </template>
 
 <script>
@@ -13,7 +13,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/styles/variables';
 
-lkh-Footer {
+.lkh-footer {
   background-color: $Black;
   position: fixed;
   bottom: 0px;

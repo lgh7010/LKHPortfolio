@@ -1,7 +1,7 @@
 <template>
-  <lkh-ViewportContainer>
+  <div class="lkh-viewportContainer">
     <slot></slot>
-  </lkh-ViewportContainer>
+  </div>
 </template>
 
 <script>
@@ -15,7 +15,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/styles/variables';
 
-lkh-ViewportContainer {
+.lkh-viewportContainer {
   position: absolute;
   top: $HeaderHeight;
   padding-bottom: $FooterHeight;
