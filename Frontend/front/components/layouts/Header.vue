@@ -1,7 +1,7 @@
 <template>
- <header>
+ <lkh-Header>
    헤더
- </header>
+ </lkh-Header>
 </template>
 
 <script>
@@ -11,9 +11,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-header {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  background-color: blue;
+@import '@/styles/variables';
+
+lkh-Header {
+  background-color: $Primary;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: $HeaderHeight;
+  color: $White;
 }
 </style>

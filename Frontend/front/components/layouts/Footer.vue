@@ -1,7 +1,7 @@
 <template>
- <footer>
+ <lkh-Footer>
    푸터
- </footer>
+ </lkh-Footer>
 </template>
 
 <script>
@@ -10,6 +10,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '@/styles/variables';
 
+lkh-Footer {
+  background-color: $Black;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: $FooterHeight;
+  color: $White;
+}
 </style>
