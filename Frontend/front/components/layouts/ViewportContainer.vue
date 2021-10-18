@@ -20,6 +20,5 @@ export default {
   top: $HeaderHeight;
   padding-bottom: $FooterHeight;
   width: 100%;
-  background-color: $SecondaryLight;
 }
 </style>
